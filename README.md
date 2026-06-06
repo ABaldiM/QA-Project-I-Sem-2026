@@ -4,6 +4,8 @@
 ## Andrés Baldi Mora 
 ## Adolfo Barquero Monestel 
 
+### Proyecto a utilizar: https://github.com/testsmith-io/practice-software-testing
+
 ### Reparto de responsabilidades
 ### Persona 1 — Líder de planificación y pruebas estáticas de requerimientos
 Se encarga de arrancar el proyecto. Redacta el Plan General de Calidad completo (objetivos, estrategia, cronograma, herramientas, roles, métricas, criterios de aceptación). Además, ejecuta la revisión estática de requerimientos: detecta ambigüedades, evalúa completitud, consistencia y trazabilidad. Es quien define los estándares que los demás siguen.
