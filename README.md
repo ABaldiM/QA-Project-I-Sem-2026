@@ -22,16 +22,16 @@ Cada integrante debe diseñar casos de prueba para al menos 1 requerimiento func
 Definan cuáles 4 requerimientos funcionales y cuáles 4 no funcionales del sistema van a usar, uno por persona, para evitar que dos personas trabajen sobre lo mismo.
 
 ### Requrimientos Funcionales
-|#|Integrante | Requerimiento
-|1| Nombre| RF
-|2| Andrés | Aplicación de Códigos de Descuento
-|3| Nombre| RF
-|4| Nombre| RF
+|#|Integrante | Requerimiento |
+|1| Nombre| RF |
+|2| Andrés | Aplicación de Códigos de Descuento |
+|3| Nombre| RF |
+|4| Nombre| RF |
 
 ### Requerimientos No Funcionales:
-|#|Integrante | Requerimiento
-|1| Nombre| RNF
-|2| Andrés | Modularidad/Complejidad/Legibilidad/Código muerto (Matenibilidad)
-|3| Nombre| RNF
-|4| Nombre| RNF
+|#|Integrante | Requerimiento |
+|1| Nombre| RNF |
+|2| Andrés | Modularidad/Complejidad/Legibilidad/Código muerto (Matenibilidad) |
+|3| Nombre| RNF |
+|4| Nombre| RNF |
 
