@@ -3,7 +3,7 @@
 Persona 1 — Líder de planificación y pruebas estáticas de requerimientos
 Se encarga de arrancar el proyecto. Redacta el Plan General de Calidad completo (objetivos, estrategia, cronograma, herramientas, roles, métricas, criterios de aceptación). Además, ejecuta la revisión estática de requerimientos: detecta ambigüedades, evalúa completitud, consistencia y trazabilidad. Es quien define los estándares que los demás siguen.
 
-Persona 2 — Revisión de código y deuda técnica
+Andrés — Revisión de código y deuda técnica 
 Se encarga de todo lo que pasa en el código fuente. Corre SonarQube o ESLint, evalúa legibilidad, modularidad, duplicación, complejidad ciclomática y código muerto. Produce el análisis de deuda técnica (smells, vulnerabilidades, dependencias obsoletas) y la evaluación de mantenibilidad (acoplamiento, cohesión, facilidad de modificación).
 
 Persona 3 — Pruebas dinámicas funcionales, automatización y usabilidad
