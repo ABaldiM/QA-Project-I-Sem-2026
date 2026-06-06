@@ -23,6 +23,7 @@ Definan cuáles 4 requerimientos funcionales y cuáles 4 no funcionales del sist
 
 ### Requrimientos Funcionales
 |#|Integrante | Requerimiento |
+|---|------|---------------|
 |1| Nombre| RF |
 |2| Andrés | Aplicación de Códigos de Descuento |
 |3| Nombre| RF |
@@ -30,6 +31,7 @@ Definan cuáles 4 requerimientos funcionales y cuáles 4 no funcionales del sist
 
 ### Requerimientos No Funcionales:
 |#|Integrante | Requerimiento |
+|---|------|---------------|
 |1| Nombre| RNF |
 |2| Andrés | Modularidad/Complejidad/Legibilidad/Código muerto (Matenibilidad) |
 |3| Nombre| RNF |
