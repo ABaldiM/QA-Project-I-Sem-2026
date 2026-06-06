@@ -1,7 +1,8 @@
 # QA-Project-I-Sem-2026
-## King Bustamante jenny 
+## Jenny King Bustamante 
 ## Aaron Vásquez Báñez 
 ## Andrés Baldi Mora 
+## Adolfo Barquero Monestel 
 
 ### Reparto de responsabilidades
 ### Persona 1 — Líder de planificación y pruebas estáticas de requerimientos
