@@ -28,7 +28,7 @@ Definan cuáles 4 requerimientos funcionales y cuáles 4 no funcionales del sist
 |#|Integrante | Requerimiento |
 |---|------|---------------|
 |1| Nombre| RF |
-|2| Andrés | Aplicación de Códigos de Descuento |
+|2| Andrés | Pasarela de pagos |
 |3| Nombre| RF |
 |4| Nombre| RF |
 
