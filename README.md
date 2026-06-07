@@ -16,7 +16,7 @@ Se encarga de todo lo que pasa en el código fuente. Corre SonarQube o ESLint, e
 ### Persona 3 — Pruebas dinámicas funcionales, automatización y usabilidad
 Se encarga de que la aplicación funcione correctamente. Diseña y ejecuta pruebas unitarias, de integración, de sistema y UAT. Automatiza flujos con Selenium, Cypress o Playwright, y prueba los endpoints de la API con Postman/Newman. También evalúa usabilidad: facilidad de navegación, accesibilidad y experiencia de usuario.
 
-### Persona 4 — Rendimiento, seguridad y métricas
+### Aarón — Rendimiento, seguridad y métricas
 Se encarga de los atributos de calidad no funcionales. Ejecuta pruebas de carga y rendimiento con JMeter (tiempo de respuesta, concurrencia, throughput). Realiza las pruebas de seguridad (SQL injection, XSS, control de acceso). Además, diseña el sistema de métricas del proyecto: fórmulas, umbrales de aceptación, unidades de medida y herramientas de recolección.
 
 ***Lo que hace cada uno individualmente (obligatorio)***
