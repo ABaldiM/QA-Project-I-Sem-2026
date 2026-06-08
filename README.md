@@ -30,7 +30,7 @@ Definan cuáles 4 requerimientos funcionales y cuáles 4 no funcionales del sist
 |1| Nombre| RF |
 |2| Andrés | Pasarela de pagos |
 |3| Nombre| RF |
-|4| Nombre| RF |
+|4| Aarón | Gestión de Perfil |
 
 ### Requerimientos No Funcionales:
 |#|Integrante | Requerimiento |
@@ -38,5 +38,5 @@ Definan cuáles 4 requerimientos funcionales y cuáles 4 no funcionales del sist
 |1| Nombre| RNF |
 |2| Andrés | Modularidad/Complejidad/Legibilidad/Código muerto (Matenibilidad) |
 |3| Nombre| RNF |
-|4| Nombre| RNF |
+|4| Aarón | Privacidad/Seguridad |
 
