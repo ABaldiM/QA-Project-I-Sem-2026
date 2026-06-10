@@ -7,7 +7,7 @@
 ### Proyecto a utilizar: https://github.com/testsmith-io/practice-software-testing
 
 ### Reparto de responsabilidades
-### Persona 1 — Líder de planificación y pruebas estáticas de requerimientos
+### Jenny — Líder de planificación y pruebas estáticas de requerimientos
 Se encarga de arrancar el proyecto. Redacta el Plan General de Calidad completo (objetivos, estrategia, cronograma, herramientas, roles, métricas, criterios de aceptación). Además, ejecuta la revisión estática de requerimientos: detecta ambigüedades, evalúa completitud, consistencia y trazabilidad. Es quien define los estándares que los demás siguen.
 
 ### Andrés — Revisión de código y deuda técnica 
@@ -27,7 +27,7 @@ Definan cuáles 4 requerimientos funcionales y cuáles 4 no funcionales del sist
 ### Requrimientos Funcionales
 |#|Integrante | Requerimiento |
 |---|------|---------------|
-|1| Nombre| RF |
+|1| Jenny| Autenticación de usuarios (registro, login, logout) |
 |2| Andrés | Pasarela de pagos |
 |3| Nombre| RF |
 |4| Aarón | Gestión de Perfil |
@@ -35,7 +35,7 @@ Definan cuáles 4 requerimientos funcionales y cuáles 4 no funcionales del sist
 ### Requerimientos No Funcionales:
 |#|Integrante | Requerimiento |
 |---|------|---------------|
-|1| Nombre| RNF |
+|1| Jenny| Disponibilidad / Confiabilidad del sistema |
 |2| Andrés | Modularidad/Complejidad/Legibilidad/Código muerto (Matenibilidad) |
 |3| Nombre| RNF |
 |4| Aarón | Privacidad/Seguridad |
