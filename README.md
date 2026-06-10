@@ -27,7 +27,7 @@ Definan cuáles 4 requerimientos funcionales y cuáles 4 no funcionales del sist
 ### Requrimientos Funcionales
 |#|Integrante | Requerimiento |
 |---|------|---------------|
-|1| Jenny| Autenticación de usuarios (registro, login, logout) |
+|1| Jenny| Búsqueda y filtrado de productos |
 |2| Andrés | Pasarela de pagos |
 |3| Nombre| RF |
 |4| Aarón | Gestión de Perfil |
