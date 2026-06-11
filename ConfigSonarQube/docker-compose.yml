@@ -1,0 +1,60 @@
+version: "3.8"
+
+services:
+  sonarqube:
+    image: sonarqube:community
+    container_name: sonarqube
+    depends_on:
+      - sonar_db
+    environment:
+      SONAR_JDBC_URL: jdbc:postgresql://sonar_db:5432/sonar
+      SONAR_JDBC_USERNAME: sonar
+      SONAR_JDBC_PASSWORD: sonar
+    ports:
+      - "9000:9000"
+    volumes:
+      - sonarqube_data:/opt/sonarqube/data
+      - sonarqube_logs:/opt/sonarqube/logs
+      - sonarqube_extensions:/opt/sonarqube/extensions
+    networks:
+      - sonar_net
+
+  sonar_db:
+    image: postgres:15
+    container_name: sonar_db
+    environment:
+      POSTGRES_USER: sonar
+      POSTGRES_PASSWORD: sonar
+    # Mantiene el contenedor activo para poder entrar 
+    networks:
+      - sonar_net
+    volumes:
+      - sonar_db_data:/var/lib/postgresql/data
+
+  node_analyzer:
+    image: node:20
+    container_name: node_analyzer
+    working_dir: /app
+    volumes:
+      - ./project:/app          # carpeta local "project/" montada en /app
+      - node_modules:/app/node_modules
+    environment:
+      SONAR_HOST_URL: http://sonarqube:9000
+      SONAR_TOKEN: ${SONAR_TOKEN}   # archivo .env
+    depends_on:
+      - sonarqube
+    networks:
+      - sonar_net
+    tty: true                    
+    stdin_open: true
+
+volumes:
+  sonarqube_data:
+  sonarqube_logs:
+  sonarqube_extensions:
+  sonar_db_data:
+  node_modules:
+
+networks:
+  sonar_net:
+    driver: bridge
